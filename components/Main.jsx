@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AvatarImg from "../public/assets/AvatarCircle.jpg";
+import avatarImg from "../public/assets/AvatarCircle.png";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -12,7 +12,7 @@ const Main = () => {
         <div>
           <Image
             className="py-4"
-            src={AvatarImg}
+            src={avatarImg}
             alt="/"
             width="200"
             height="200"
