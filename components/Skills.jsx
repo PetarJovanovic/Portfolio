@@ -1,5 +1,17 @@
 import Image from "next/image";
 import React from "react";
+import htmlImg from "../public/assets/skills/html.png";
+import cssImg from "../public/assets/skills/css.png";
+import jsImg from "../public/assets/skills/javascript.png";
+import reactImg from "../public/assets/skills/react.png";
+import nextImg from "../public/assets/skills/nextjs.png";
+import twImg from "../public/assets/skills/tailwind.png";
+import nodeImg from "../public/assets/skills/node.png";
+import expressImg from "../public/assets/skills/express.png";
+import mongoImg from "../public/assets/skills/mongo.png";
+import postgreImg from "../public/assets/skills/postgresql.png";
+import tsImg from "../public/assets/skills/typescript.png";
+import githubImg from "../public/assets/skills/github.png";
 
 const Skills = () => {
   return (
@@ -17,7 +29,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/html.png"
+                  src={htmlImg}
                   alt="/"
                   height="64"
                   width="64"
@@ -32,7 +44,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/css.png"
+                  src={cssImg}
                   alt="/"
                   height="64"
                   width="64"
@@ -47,7 +59,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/javascript.png"
+                  src={jsImg}
                   alt="/"
                   height="64"
                   width="64"
@@ -62,7 +74,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/react.png"
+                  src={reactImg}
                   alt="/"
                   height="64"
                   width="64"
@@ -77,7 +89,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/nextjs.png"
+                  src={nextImg}
                   alt="/"
                   height="64"
                   width="64"
@@ -92,7 +104,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/tailwind.png"
+                  src={twImg}
                   alt="/"
                   height="64"
                   width="64"
@@ -107,7 +119,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/node.png"
+                  src={nodeImg}
                   alt="/"
                   height="64"
                   width="64"
@@ -122,7 +134,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/express.png"
+                  src={expressImg}
                   alt="/"
                   height="64"
                   width="64"
@@ -137,7 +149,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/mongo.png"
+                  src={mongoImg}
                   alt="/"
                   height="64"
                   width="64"
@@ -152,7 +164,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/postgresql.png"
+                  src={postgreImg}
                   alt="/"
                   height="64"
                   width="64"
@@ -167,7 +179,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/typescript.png"
+                  src={tsImg}
                   alt="/"
                   height="64"
                   width="64"
@@ -182,7 +194,7 @@ const Skills = () => {
               </div>
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/github.png"
+                  src={githubImg}
                   alt="/"
                   height="64"
                   width="64"
