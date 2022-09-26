@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AvatarImg from "/../public/assets/AvatarCircle.jpg";
+import AvatarImg from "../public/assets/AvatarCircle.jpg";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
