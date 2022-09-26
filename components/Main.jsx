@@ -11,7 +11,7 @@ const Main = () => {
         <div>
           <Image
             className="py-4"
-            src="/../public/assets/AvatarCircle.png"
+            src="/../public/assets/AvatarCircle.jpg"
             alt="/"
             width="200"
             height="200"
