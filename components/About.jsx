@@ -1,8 +1,9 @@
 import React from "react";
+import Link from "next/link";
 
 const About = () => {
   return (
-    <div id="about" className="w-full lg:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full pt-[90px] px-3 flex items-center">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
@@ -41,9 +42,11 @@ const About = () => {
             until i got opportunity to work at Salt and broader my skillset even
             more.
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">
-            Check out some of my latest projects
-          </p>
+          <Link href="/#projects">
+            <p className="py-2 text-gray-600 underline cursor-pointer">
+              Check out some of my latest projects
+            </p>
+          </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <img

@@ -9,8 +9,8 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
+    <div id="projects" className="w-full pt-[90px] px-3">
+      <div className="max-w-[1240px] mx-auto">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>

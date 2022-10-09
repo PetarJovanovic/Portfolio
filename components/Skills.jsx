@@ -15,7 +15,7 @@ import githubImg from "../public/assets/skills/github.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen px-2">
+    <div id="skills" className="w-full pt-[90px] px-3">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p2 className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
@@ -28,12 +28,7 @@ const Skills = () => {
                 <h3>HTML</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={htmlImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={htmlImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>
@@ -43,12 +38,7 @@ const Skills = () => {
                 <h3>CSS</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={cssImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={cssImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>
@@ -58,12 +48,7 @@ const Skills = () => {
                 <h3>JavaScript</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={jsImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={jsImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>
@@ -73,12 +58,7 @@ const Skills = () => {
                 <h3>React</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={reactImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={reactImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>
@@ -88,12 +68,7 @@ const Skills = () => {
                 <h3>Next.js</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={nextImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={nextImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>
@@ -103,12 +78,7 @@ const Skills = () => {
                 <h3>Tailwind</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={twImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={twImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>
@@ -118,12 +88,7 @@ const Skills = () => {
                 <h3>Node.js</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={nodeImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={nodeImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>
@@ -133,12 +98,7 @@ const Skills = () => {
                 <h3>Express.js</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={expressImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={expressImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>
@@ -148,12 +108,7 @@ const Skills = () => {
                 <h3>MongoDB</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={mongoImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={mongoImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>
@@ -163,12 +118,7 @@ const Skills = () => {
                 <h3>PostgreSQL</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={postgreImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={postgreImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>
@@ -178,12 +128,7 @@ const Skills = () => {
                 <h3>TypeScript</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={tsImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={tsImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>
@@ -193,12 +138,7 @@ const Skills = () => {
                 <h3>Github</h3>
               </div>
               <div className="m-auto">
-                <Image
-                  src={githubImg}
-                  alt="/"
-                  height="64"
-                  width="64"
-                />
+                <Image src={githubImg} alt="/" height="64" width="64" />
               </div>
             </div>
           </div>

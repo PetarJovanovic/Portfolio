@@ -54,11 +54,11 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            {/* <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
-            </Link>
+            </Link> */}
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
@@ -122,11 +122,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/">
+              {/* <Link href="/">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
                 </li>
-              </Link>
+              </Link> */}
             </ul>
             <p className="uppercase tracking-widest text-[#5651e5]">
               Let&#39;s Connect
