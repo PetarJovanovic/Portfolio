@@ -10,18 +10,36 @@ const About = () => {
           </p>
           <h2 className="py-4">Biography</h2>
           <p className="py-2 text-gray-600">
-            Skilled, responsible, accurate, innovative Web Developer with an eye
-            for detail, with over 3 years of front-end experience and passion
-            for responsive website design. Committed to helping users reach and
-            exceed their business goals. Motivated, sociable and open-minded,
-            easily adapts to different environments.
+            Hi, my name is Petar. Since young age I was interested in computers
+            and technology. I got my first PC when I was 7 years old, and that
+            is when I felt in love with computers. In primary school I already
+            knew what I wanted to learn and study in high school and faculty
+            afterwards. I went to Electrotechnical High School Zajecar, Serbia.
+            There I was introduced to C and C++ for the first time. I learned
+            basics of programming and algorithms. As well as basics of
+            electrotechnics.
           </p>
           <p className="py-2 text-gray-600">
-            Skilled, responsible, accurate, innovative Web Developer with an eye
-            for detail, with over 3 years of front-end experience and passion
-            for responsive website design. Committed to helping users reach and
-            exceed their business goals. Motivated, sociable and open-minded,
-            easily adapts to different environments.
+            After High School I went to the University of Belgrade where I
+            studied Informatics. I countinue learning C/C++ in much greater
+            details as well as Data Structures and Algorithms. I got familiar
+            with Computer Organization and Architecture. Then I got introduced
+            to OOP and Web Development. At that point I realized what I want to
+            do when I finish faculty. I learned and got experience with
+            programming languages such as JavaScript, Java, PHP, C#. I continued
+            exploring more about Web Development and learned as much as I could.
+          </p>
+          <p className="py-2 text-gray-600">
+            I got chance to work with WordPress and create some smaller Web
+            Projects for few startup companies in Belgrade. I learned very
+            valuable lessons of how real world projects work and what it means
+            to work on projects outside of faculty. This lead to job as Front
+            End Developer for Switzerland company in Belgrade. Here I got
+            experience working with React and really dive deeper into Front End.
+            In December of 2018 I moved to Kirkenes, Norway and in May of 2021
+            to Hønefoss, Norway. I continue practicing my skills as freelancer,
+            until i got opportunity to work at Salt and broader my skillset even
+            more.
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
             Check out some of my latest projects
