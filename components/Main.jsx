@@ -44,9 +44,7 @@ const Main = () => {
             </Link>
             {/* <Link href={``}> */}
             <div
-              onClick={() =>
-                console.log((window.open = "mailto:petarj.no@gmail.com"))
-              }
+              onClick={() => (window.open = "mailto:petarj.no@gmail.com")}
               className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <AiOutlineMail />
