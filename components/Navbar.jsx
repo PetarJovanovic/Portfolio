@@ -24,11 +24,11 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] bg-[#ecf0f3] text-[#1f2937]"
+          ? "fixed w-full h-24 shadow-xl z-[100] bg-[#ecf0f3] text-[#1f2937]"
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-2 py-12 2xl:px-16">
         <Link href="/">
           <Image
             src={logoImg}
@@ -41,16 +41,22 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:font-bold hover:scale-125 ease-linear duration-200">
+                Home
+              </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:font-bold hover:scale-125 ease-linear duration-200">
+                About
+              </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:font-bold hover:scale-125 ease-linear duration-200">
+                Skills
+              </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:font-bold hover:scale-125 ease-linear duration-200">
                 Projects
               </li>
             </Link>
@@ -101,7 +107,7 @@ const Navbar = () => {
           </div>
 
           <div className="flex flex-col">
-            <ul className="uppercased mb-8">
+            <ul className="uppercase mb-8">
               <Link href="/">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Home

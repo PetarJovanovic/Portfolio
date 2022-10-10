@@ -15,7 +15,7 @@ import githubImg from "../public/assets/skills/github.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full pt-[90px] px-3">
+    <div id="skills" className="w-full pt-[100px] px-3">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p2 className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
