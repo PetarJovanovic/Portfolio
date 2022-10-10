@@ -60,11 +60,11 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
-            {/* <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+            <Link href="/contact">
+              <li className="ml-10 text-sm uppercase hover:font-bold hover:scale-125 ease-linear duration-200">
                 Contact
               </li>
-            </Link> */}
+            </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />

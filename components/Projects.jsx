@@ -1,8 +1,8 @@
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
-import netflixImg from "../public/assets/projects/netflix.jpg";
-import twitchImg from "../public/assets/projects/twitch.jpg";
+import propertyImg from "../public/assets/projects/activityKnot.jpg";
+import cryptoImg from "../public/assets/projects/starWarsAPI.jpg";
+import netflixImg from "../public/assets/projects/portfolioPage.jpg";
+import twitchImg from "../public/assets/projects/todo.jpg";
 import ProjectItem from "./ProjectItem";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -17,24 +17,28 @@ const Projects = () => {
         <h2 className="py-4">What I&#39;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
+            title="Activity Knot"
+            description="Full CRUD JavaScript"
             backgroundImg={propertyImg}
-            projectUrl="/property"
+            projectUrl="/activity-knot"
           />
           <ProjectItem
-            title="Crypto App"
+            title="Star Wars API"
+            description="Full CRUD JavaScript"
             backgroundImg={cryptoImg}
-            projectUrl="/property"
+            projectUrl="/star-wars"
           />
           <ProjectItem
-            title="Netflix App"
+            title="Portfolio Page"
+            description="Next.js with Tailwind CSS"
             backgroundImg={netflixImg}
-            projectUrl="/property"
+            projectUrl="/portfolio"
           />
           <ProjectItem
-            title="Twitch App"
+            title="To-Do List"
+            description="React"
             backgroundImg={twitchImg}
-            projectUrl="/property"
+            projectUrl="/todo"
           />
         </div>
         <div className="flex justify-center py-12">
