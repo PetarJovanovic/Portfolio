@@ -60,11 +60,11 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
-            <Link href="/contact">
+            {/* <Link href="/contact">
               <li className="ml-10 text-sm uppercase hover:font-bold hover:scale-125 ease-linear duration-200">
                 Contact
               </li>
-            </Link>
+            </Link> */}
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
@@ -128,7 +128,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              {/* <Link href="/">
+              {/* <Link href="/contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
                 </li>
@@ -147,9 +147,9 @@ const Navbar = () => {
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <AiOutlineMail />
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+              {/* <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <BsFillPersonLinesFill />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

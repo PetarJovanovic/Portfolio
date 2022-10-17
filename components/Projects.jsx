@@ -1,8 +1,8 @@
 import React from "react";
-import propertyImg from "../public/assets/projects/activityKnot.jpg";
-import cryptoImg from "../public/assets/projects/starWarsAPI.jpg";
-import netflixImg from "../public/assets/projects/portfolioPage.jpg";
-import twitchImg from "../public/assets/projects/todo.jpg";
+import activitiKnotImg from "../public/assets/projects/activityKnot.jpg";
+import starWarsImg from "../public/assets/projects/starWarsAPI.jpg";
+import portfolioImg from "../public/assets/projects/portfolioPage.jpg";
+import todoImg from "../public/assets/projects/todo.jpg";
 import ProjectItem from "./ProjectItem";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -19,25 +19,25 @@ const Projects = () => {
           <ProjectItem
             title="Activity Knot"
             description="Full CRUD JavaScript"
-            backgroundImg={propertyImg}
+            backgroundImg={activitiKnotImg}
             projectUrl="/activity-knot"
           />
           <ProjectItem
             title="Star Wars API"
-            description="Full CRUD JavaScript"
-            backgroundImg={cryptoImg}
+            description="Full-Stack JavaScript"
+            backgroundImg={starWarsImg}
             projectUrl="/star-wars"
           />
           <ProjectItem
             title="Portfolio Page"
             description="Next.js with Tailwind CSS"
-            backgroundImg={netflixImg}
+            backgroundImg={portfolioImg}
             projectUrl="/portfolio"
           />
           <ProjectItem
             title="To-Do List"
             description="React"
-            backgroundImg={twitchImg}
+            backgroundImg={todoImg}
             projectUrl="/todo"
           />
         </div>

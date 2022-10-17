@@ -18,10 +18,10 @@ const Main = () => {
             width="200"
             height="200"
           />
-          <h2 className="py-4 text-gray-700">
+          <h2 className="pt-4 text-gray-700">
             Hi I&#39;m <span className="text-[#5651e5]">Petar</span>
           </h2>
-          <h2 className="py-2 text-gray-700">
+          <h2 className="p-2 text-gray-700">
             A Full-Stack JavaScript Developer
           </h2>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
@@ -37,22 +37,22 @@ const Main = () => {
                 <FaLinkedinIn />
               </div>
             </Link>
+
             <Link href="https://github.com/PetarJovanovic">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>
             </Link>
-            {/* <Link href={``}> */}
-            <div
-              onClick={() => (window.open = "mailto:petarj.no@gmail.com")}
-              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-            >
+
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <AiOutlineMail />
             </div>
-            {/* </Link> */}
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
-            </div>
+
+            {/* <Link href="/contact">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <BsFillPersonLinesFill />
+              </div>
+            </Link> */}
           </div>
         </div>
       </div>
