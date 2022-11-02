@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import aboutImg from '../public/assets/about/about.jpg';
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -41,11 +43,7 @@ const About = () => {
           </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <img
-            className='rounded-xl'
-            src='https://images.unsplash.com/photo-1624996752380-8ec242e0f85d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'
-            alt='/'
-          />
+          <Image className='rounded-xl' src={aboutImg} alt='/' />
         </div>
       </div>
     </div>
