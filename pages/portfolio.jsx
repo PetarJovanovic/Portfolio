@@ -26,7 +26,7 @@ const portfolio = () => {
             on Heroku and have CI/CD with GitHub.
           </p>
           <a href='https://github.com/PetarJovanovic/Portfolio.git'>
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8 hover:bg-black'>Code</button>
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
