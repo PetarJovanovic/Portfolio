@@ -18,7 +18,7 @@ const Main = () => {
           <h2 className='p-2 text-gray-700'>A Full-Stack JavaScript Developer</h2>
           <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
             Skilled, responsible, accurate, innovative Web Developer with an eye for detail, with
-            over 3 years of front-end experience and passion for responsive website design.
+            experience and passion for responsive website design.
             Committed to helping users reach and exceed their business goals. Motivated, sociable
             and open-minded, easily adapts to different environments.
           </p>
